@@ -70,9 +70,27 @@ header .nav li {
 header .nav a {
     width:25%;
     margin:5%;
+    margin-top:0;
     text-decoration:none;
 }
 
 header .nav a:hover {
     cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .h1-styling {
+        width:50%;
+    }
+
+    .h1-styling .internal-flex-2 h1 {
+        font-size:5vw;
+    }
+
+    header .nav a {
+        width:15%;
+        margin:3%;
+        margin-top:0;
+        text-decoration:none;
+    }
 }

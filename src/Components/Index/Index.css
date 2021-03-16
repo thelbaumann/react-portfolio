@@ -1,0 +1,51 @@
+.mainBlock.Index h1 {
+    color:#C89EA5;
+    text-align:left;
+}
+
+.mainBlock.Index h2 {
+    font-size:1.2rem;
+}
+
+.mainBlock.Index h3 {
+    font-size:1rem;
+}
+
+.mainBlock.Index h2, .mainBlock.Index h3 {
+    color:lightgray;
+    text-align: left;
+    border-bottom:1px solid lightgray;
+    padding-bottom:5%;
+    font-weight:500;
+    line-height:1.5;
+    margin-top:0;
+    margin-bottom:0.5em;
+}
+
+.mainBlock.Index .br {
+    margin-bottom:0.25em;
+}
+
+.mainBlock.Index a {
+    color:lightgray;
+    text-align: left;
+    border-bottom:1px solid lightgray;
+    font-weight:500;
+    line-height:1.5;
+    margin-top:0;
+    margin-bottom:0;
+    border:none;
+}
+
+.mainBlock.Index p {
+    font-size:0.9rem;
+    line-height:1.5;
+}
+
+.mainBlock.Index .about-link {
+    color:#C89EA5;
+    font-weight:500;
+    text-decoration:underline;
+    line-height:2;
+    font-size:0.9rem;
+}

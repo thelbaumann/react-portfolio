@@ -1,4 +1,4 @@
-.mainBlock a {
+.mainBlock.Contact a {
     display:block;
     line-height:2;
     color:#C89EA5;
@@ -10,7 +10,7 @@
     border-radius:5%;
 }
 
-.mainBlock a:hover {
+.mainBlock.Contact a:hover {
     background-color:#C89EA5;
     color:white;
 }

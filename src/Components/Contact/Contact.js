@@ -4,7 +4,7 @@ import "../../App.css";
 
 export default function Contact() {
   return (
-    <div className="mainBlock">
+    <div className="mainBlock Contact">
         <h1>Contact Me!</h1>
 
         <a href="mailto:l.bmann@icloud.com" class="d-block mb-4 text-left">Shoot me an email!</a>
