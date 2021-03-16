@@ -1,0 +1,16 @@
+.mainBlock a {
+    display:block;
+    line-height:2;
+    color:#C89EA5;
+    text-decoration:none;
+    margin-bottom:5%;
+    border:1px dashed #C89EA5;
+    padding:1%;
+    text-align: center;
+    border-radius:5%;
+}
+
+.mainBlock a:hover {
+    background-color:#C89EA5;
+    color:white;
+}
