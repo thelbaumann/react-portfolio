@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <div className="header">
+    <header>
         <div className="h1-styling">
             <Link to="/">
                 <div className="internal-flex-1">
@@ -27,6 +27,6 @@ export default function Header() {
                 <li>Contact</li>
             </Link>
         </ul>
-    </div>
+    </header>
   )
 }

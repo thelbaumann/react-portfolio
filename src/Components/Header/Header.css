@@ -1,5 +1,5 @@
-.header {
-    background-color:darkblue;
+header {
+    background-color:#C89EA5;
     color:white;
 }
 
@@ -20,6 +20,14 @@
     width:100%;
     position: relative;
     padding:5% 5%;
+}
+
+.h1-styling a:hover {
+    cursor: pointer;
+}
+
+.h1-styling li {
+    text-decoration: none;
 }
 
 .internal-flex-1, .internal-flex-2 {
@@ -46,7 +54,7 @@
     width:100%;
 }
 
-.header .nav {
+header .nav {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -55,11 +63,16 @@
     margin:0;
 }
 
-.header .nav li {
+header .nav li {
     color:white;
 }
 
-.header .nav a {
+header .nav a {
     width:25%;
     margin:5%;
+    text-decoration:none;
+}
+
+header .nav a:hover {
+    cursor: pointer;
 }

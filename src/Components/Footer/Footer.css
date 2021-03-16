@@ -1,0 +1,18 @@
+footer {
+    background-color: #E5B5BD;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:white;
+}
+
+footer a {
+    color:white;
+}
+
+footer div {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+}
